@@ -46,6 +46,10 @@ discussion page, and messages posted there will likely be ignored.**
  
 ## Changelog
 
+### 0.6.0 (xxxx-xx-xx)
+
+* New feature: Include station names, trains, and train fuel in updated blueprints.
+
 ### 0.5.0 (2020-01-31)
   * **Update for Factorio 0.18**
 

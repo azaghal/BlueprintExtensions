@@ -69,8 +69,13 @@ function Updater.on_selected_area(event)
     cursor.create_blueprint{
         surface=player.surface,
         force=player.force,
+        area=area,
         always_include_tiles=true,
-        area=area
+        include_entities=true,
+        include_modules=true,
+        include_station_names=true,
+        include_trains=true,
+        include_fuel=true
     }
     if not cursor.is_blueprint_setup() then  -- Empty blueprint area?
         cursor.set_stack(CLONED_BLUEPRINT)
